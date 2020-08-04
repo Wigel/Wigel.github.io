@@ -1,0 +1,9 @@
+- item: "github"
+  url: "https://github.com/Wigel"
+- item: "facebook"
+  url: "https://www.facebook.com/pal.berglund/"
+- item: "linkedin"
+  url: "https://www.linkedin.com/in/paal-berglund/"
+- item: "rss"
+  url: "index.xml"
+  internal: true

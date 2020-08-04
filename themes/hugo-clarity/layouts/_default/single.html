@@ -1,0 +1,30 @@
+{{- define "main" }}
+{{- $scratch := newScratch }}
+{{- if isset .Params "image" }}
+{{- $scratch.Set "image" .Params.image }}
+{{- else }}
+{{ $scratch.Set "image" .Site.Params.fallBackOgImage }}
+{{- end }}
+{{- $image := $scratch.Get "image" }}
+{{- $bg := (path.Join "images" $image | absLangURL) }}
+<div class='grid-inverse wrap content'>
+  <article>
+    <h1 class='post_title'>{{ .Title }}</h1>
+    {{- $link := .RelPermalink }}
+    {{ if not (eq $link "/about/") }}
+    {{- partial "post-meta" . }}
+    {{- end }}
+    {{ with .Params.featureImage }}
+    <img src='{{ . }}' class="image_featured">
+    {{ end }}
+    {{ if .Params.toc }}
+    <h2>Overview</h2>
+    {{ .TableOfContents }}
+    {{ end }}
+    <div class="post_content">
+      {{- .Content }}
+    </div>
+  </article>
+  {{- partial "sidebar" . }}
+</div>
+{{- end }}
