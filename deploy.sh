@@ -9,7 +9,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 hugo -t "hugo-clarity" # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Add changes to git.
-git add ./docs
+git add .
 
 # Commit changes.
 msg="rebuilding site $(date)"
