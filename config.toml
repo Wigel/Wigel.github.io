@@ -1,6 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "https://wigel.github.io/"  # Include trailing slash
+baseurl = "https://paruport.com/"  # Include trailing slash
 title = "Paruport"
 author = "Pål Berglund"
 copyright = "Copyright © 2020 all rights reserved."
