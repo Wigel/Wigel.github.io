@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paruport</title>
-    <link>https://wigel.github.io/post/</link>
+    <link>https://paruport.com/post/</link>
     <description>Recent content on Paruport</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020 all rights reserved.</copyright>
     <lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wigel.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paruport.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown examples</title>
-      <link>https://wigel.github.io/post/markdown-syntax/</link>
+      <link>https://paruport.com/post/markdown-syntax/</link>
       <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://wigel.github.io/post/markdown-syntax/</guid>
+      <guid>https://paruport.com/post/markdown-syntax/</guid>
       <description>&lt;p&gt;Post containing markdown examples for writing blog posts.&lt;/p&gt;</description>
     </item>
     
