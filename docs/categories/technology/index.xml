@@ -6,10 +6,19 @@
     <description>Recent content in Technology on Paruport</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020 all rights reserved.</copyright>
-    <lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://paruport.com/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kafka Summary</title>
+      <link>https://paruport.com/post/kafka-summary/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://paruport.com/post/kafka-summary/</guid>
+      <description>&lt;p&gt;Post containing markdown examples for writing blog posts.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Markdown examples</title>
