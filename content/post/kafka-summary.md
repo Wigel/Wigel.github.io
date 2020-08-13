@@ -12,6 +12,8 @@ categories = [
 series = ["Kafka"]
 +++
 
+Summarized information about kafka from various sources.
+
 <!--more-->
 
 ## What is Kafka?
