@@ -12,8 +12,6 @@ categories = [
 series = ["Kafka"]
 +++
 
-Post containing markdown examples for writing blog posts.
-
 <!--more-->
 
 ## What is Kafka?
