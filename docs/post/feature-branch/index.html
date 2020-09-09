@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-figures="" class="page">
-  <head>  <title>About | Paruport</title>
+  <head>  <title>Feature branch workflow | Paruport</title>
   <meta charset='utf-8'>
   <meta name="generator" content="Hugo 0.74.3" />
   <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
@@ -15,13 +15,13 @@
   
 <meta property = "og:locale" content = "en_US" />
 <meta property="og:type" content="article">
-<meta name="description" content="About this page and me">
+<meta name="description" content="Feature branch git workflow utilizing github projects.">
 <meta name = "twitter:card" content = "summary" />
 <meta name = "twitter:creator" content = "">
-<meta name = "twitter:title" content = "About" />
-<meta property = "og:url" content = "https://paruport.com/about/" />
-<meta property = "og:title" content = "About" />
-<meta property = "og:description" content = "About this page and me" />
+<meta name = "twitter:title" content = "Feature branch workflow" />
+<meta property = "og:url" content = "https://paruport.com/post/feature-branch/" />
+<meta property = "og:title" content = "Feature branch workflow" />
+<meta property = "og:description" content = "Feature branch git workflow utilizing github projects." />
 <meta property = "og:image" content = "https://paruport.com/images/thumbnail.png" />
 <link rel='apple-touch-icon' sizes='180x180' href='https://paruport.com/icons/apple-touch-icon.png'>
 <link rel='icon' type='image/png' sizes='32x32' href='https://paruport.com/icons/favicon-32x32.png'>
@@ -31,7 +31,7 @@
 <meta name="msapplication-TileColor" content="#002538">
 <meta name="theme-color" content="#002538">
 
-  <link rel='canonical' href='https://paruport.com/about/'>
+  <link rel='canonical' href='https://paruport.com/post/feature-branch/'>
     
 
     
@@ -59,7 +59,7 @@
       <div class='/ nav_parent'>
         <a href='https://paruport.com/' class='nav_item'>Home </a>
       </div>
-      <div class='/about/ nav_parent nav_active'>
+      <div class='/about/ nav_parent'>
         <a href='https://paruport.com/about/' class='nav_item'>About </a>
       </div>
       <a href='https://paruport.com/' class='nav_brand nav_center nav_item'>
@@ -98,15 +98,44 @@
 
 <div class='grid-inverse wrap content'>
   <article>
-    <h1 class='post_title'>About</h1>
+    <h1 class='post_title'>Feature branch workflow</h1>
+    <div class='post_meta'>
+  <svg class="icon">
+    <use xlink:href="#calendar"></use>
+  </svg>
+  <span class="post_date">
+    Sep 9, 2020</span>
+  <a href='https://paruport.com/tags/git' class='post_tag button'>Git
+  </a>
+</div>
     
     
-    
-    <div class="post_content"><p>I&rsquo;m Pål from Sweden.</p>
-<p>I&rsquo;m a software engineer working with platform development for a big tech company in Tokyo!
-The content of this blog will mostly consist of technology that I have to study for work and things that I&rsquo;m building in my free time.</p>
-<!-- raw HTML omitted -->
-
+    <div class="post_content"><p>Feature branch git workflow utilizing github projects.</p>
+<h4 id="1-checkout-master-branch-and-update-to-latest-version">1: Checkout master branch and update to latest version</h4>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>git checkout master
+<span class="ln">2</span>git pull origin master
+</code></pre></div><h4 id="2-create-your-new-feature-branch">2: Create your new feature branch</h4>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>git checkout -b feature/GoodNameThatExplainsWtfIsBeingMadeInTheBranch
+<span class="ln">2</span>Branch name examples:
+<span class="ln">3</span>- feature/CreatePokemonView
+<span class="ln">4</span>- feature/AddPokemon
+<span class="ln">5</span>- feature/RemovePokemon
+</code></pre></div><h4 id="3-push-feature-branch-to-remote">3: Push feature branch to remote</h4>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>git push -u origin feature/BranchName
+</code></pre></div><h4 id="4-create-pull-request-to-merge-into-master">4: Create pull request to merge into master</h4>
+<p>This will create a card for your branch in the GitHub project under &ldquo;in progress&rdquo;</p>
+<h4 id="5-implement-the-feature">5: Implement the feature</h4>
+<ul>
+<li>Focus on implementing only one specific feature.</li>
+<li>Be cautious about not creating conflicts.</li>
+<li>If you feel like you have finished a part of your implementation, commit and push it to remote branch.</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>git status
+<span class="ln">2</span>git add filename
+<span class="ln">3</span>git commit filename
+</code></pre></div><h4 id="6-push-feature-branch-to-remote">6: Push feature branch to remote</h4>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>git push -u origin feature/BranchName
+</code></pre></div><h4 id="7-merge-pull-request-after-receiving-approvals">7: Merge pull request after receiving approvals</h4>
     </div>
   </article>
 <aside class="sidebar">
@@ -119,12 +148,11 @@ The content of this blog will mostly consist of technology that I have to study 
       Software Engineer in Tokyo, specializing in web platform development.
     </div>
     
+    <a href='https://paruport.com/about/' class="button mt-1" role="button">Read More</a>
+    
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       
-      <li>
-        <a href="https://paruport.com/post/feature-branch/" class="nav-link">Feature branch workflow</a>
-      </li>
       <li>
         <a href="https://paruport.com/post/kafka-summary/" class="nav-link">Kafka Summary</a>
       </li>

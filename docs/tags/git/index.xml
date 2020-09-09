@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Paruport</title>
-    <link>https://paruport.com/post/</link>
-    <description>Recent content in Posts on Paruport</description>
+    <title>Git on Paruport</title>
+    <link>https://paruport.com/tags/git/</link>
+    <description>Recent content in Git on Paruport</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020 all rights reserved.</copyright>
     <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paruport.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paruport.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://paruport.com/post/feature-branch/</guid>
       <description>&lt;p&gt;Feature branch git workflow utilizing github projects.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Kafka Summary</title>
-      <link>https://paruport.com/post/kafka-summary/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://paruport.com/post/kafka-summary/</guid>
-      <description>&lt;p&gt;Summarized information about kafka from various sources.&lt;/p&gt;</description>
     </item>
     
   </channel>
