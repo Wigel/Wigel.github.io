@@ -33,17 +33,7 @@ Branch name examples:
 - feature/RemovePokemon
 ```
 
-#### 3: Push feature branch to remote
-
-```
-git push -u origin feature/BranchName
-```
-
-#### 4: Create pull request to merge into master
-
-This will create a card for your branch in the GitHub project under "in progress"
-
-#### 5: Implement the feature
+#### 3: Implement the feature
 
 - Focus on implementing only one specific feature.
 - Be cautious about not creating conflicts.
@@ -55,10 +45,14 @@ git add filename
 git commit filename
 ```
 
-#### 6: Push feature branch to remote
+#### 4: Push feature branch to remote
 
 ```
 git push -u origin feature/BranchName
 ```
 
-#### 7: Merge pull request after receiving approvals
+#### 5: Create pull request to merge into master
+
+This will create a card for your branch in the GitHub project under "in progress"
+
+#### 6: Merge pull request after receiving approvals
