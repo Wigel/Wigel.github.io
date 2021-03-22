@@ -42,7 +42,7 @@ Branch name examples:
 ```
 git status
 git add filename
-git commit filename
+git commit -m "Added a reset button"
 ```
 
 #### 4: Push feature branch to remote
