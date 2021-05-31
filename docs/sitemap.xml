@@ -1,54 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://paruport.com/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/post/feature-branch/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/tags/git/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/post/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/tags/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/categories/technology/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/tags/kafka/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/post/kafka-summary/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://paruport.com/about/</loc>
   </url>
-  
 </urlset>

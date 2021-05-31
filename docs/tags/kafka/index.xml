@@ -6,11 +6,7 @@
     <description>Recent content in Kafka on Paruport</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020 all rights reserved.</copyright>
-    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://paruport.com/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://paruport.com/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kafka Summary</title>
       <link>https://paruport.com/post/kafka-summary/</link>

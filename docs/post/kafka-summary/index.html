@@ -2,7 +2,7 @@
 <html lang="en" data-figures="" class="page">
   <head>  <title>Kafka Summary | Paruport</title>
   <meta charset='utf-8'>
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.83.1" />
   <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
   <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
 <script async src="https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXX"></script>
@@ -36,7 +36,7 @@
 
     
     <link rel="preload" href="https://paruport.com/css/styles.f686b0cf0d5a61a6f1ccc3bb67236b7b188ec5deaaf397eb3f8bb69f28385d8e21a78331bbf3b30ab652837a8a3cd61a9a53a13974b0d4dce1380864856539b4.css" integrity = 'sha512-9oawzw1aYabxzMO7ZyNrexiOxd6q85frP4u2nyg4XY4hp4Mxu/OzCrZSg3qKPNYamlOhOXSw1NzhOAhkhWU5tA==' as="style">
-    <link rel="preload" href="https://paruport.com/js/bundle.6d468eb5921d97c9c31450cf05a079e0c004fe2bfa242d5202fc0fa9745d7335e18e267f39f085dd4aa755b74c944ab1228527dfb6c47fd7a1999c8d7c190a54.js" as="script">
+    <link rel="preload" href="https://paruport.com/js/bundle.b5a50d7729647d351c765864acdaeea15391e1e2e2930092a3db0141c2db955090a943000603b0d71eb40014410b7fde6d9ab17334bbfbe3dd294e854a7a30c2.js" as="script">
 
     
     <link rel = 'stylesheet' href = 'https://paruport.com/css/styles.f686b0cf0d5a61a6f1ccc3bb67236b7b188ec5deaaf397eb3f8bb69f28385d8e21a78331bbf3b30ab652837a8a3cd61a9a53a13974b0d4dce1380864856539b4.css' integrity = 'sha512-9oawzw1aYabxzMO7ZyNrexiOxd6q85frP4u2nyg4XY4hp4Mxu/OzCrZSg3qKPNYamlOhOXSw1NzhOAhkhWU5tA=='>
@@ -117,11 +117,11 @@
 <p>Kafka can be considered a combination between message queue and publish-subscribe pattern</p>
 <h2 id="publishsubscribe-messaging">Publish/Subscribe Messaging</h2>
 <p>Publish/Subscribe messaging is a pattern where you have a sender(publisher) of data(message). This message is not directed specifically to a reciever, instead it is tagged somehow. On the other end you have the receiver(subscriber), which subscribes to receive messages with certain tags. In between the publisher and subscriber we usually have a broker(server) which is a centralized point for messages to be published and subscribed to.   </p>
-<p>For example, a normal Metrics handling system would look something like this: 
+<p>For example, a normal Metrics handling system would look something like this:
 <img src="https://paruport.com/images/posts/kafka-summary/1.jpg" alt="System without pub-sub"></p>
-<p>By implementing a Pub/Sub system it would look something like this: 
+<p>By implementing a Pub/Sub system it would look something like this:
 <img src="https://paruport.com/images/posts/kafka-summary/2.jpg" alt="System with pub-sub"></p>
-<p>As our application grows we would like to add more pub/sub systems for various services: 
+<p>As our application grows we would like to add more pub/sub systems for various services:
 <img src="https://paruport.com/images/posts/kafka-summary/3.jpg" alt="System with several pub-sub"></p>
 <h2 id="kafka-key-terms">Kafka key terms</h2>
 <h3 id="producer">Producer</h3>
@@ -164,7 +164,7 @@
 <li><em><strong>Brokers</strong></em> holds a default <em><strong>retention period setting</strong></em> for <em><strong>topics</strong></em>.</li>
 <li>Kafka <em><strong>brokers</strong></em> are designed to operate as part of a <em><strong>cluster</strong></em>.</li>
 <li>If it&rsquo;s a <em><strong>cluster</strong></em>, one <em><strong>broker</strong></em> will function as <em><strong>cluster controller</strong></em>(Automatically selected from live server)</li>
-<li>The controller assigns <em><strong>partitions</strong></em> to <em><strong>brokers</strong></em>, and monitors for <em><strong>broker</strong></em> failures. 
+<li>The controller assigns <em><strong>partitions</strong></em> to <em><strong>brokers</strong></em>, and monitors for <em><strong>broker</strong></em> failures.
 <img src="https://paruport.com/images/posts/kafka-summary/5.jpg" alt="Brokers in a Cluster example"></li>
 </ul>
 <h3 id="cluster">Cluster</h3>
@@ -178,7 +178,7 @@
 <li>Isolation for security requirements</li>
 <li>Multiple data centers(regions, disaster recover)
 <ul>
-<li>It&rsquo;s often required to copy data between datacenter <em><strong>clusters</strong></em>. 
+<li>It&rsquo;s often required to copy data between datacenter <em><strong>clusters</strong></em>.
 -Ex: If a user changes public info in their profile it has to change in all data centers.</li>
 </ul>
 </li>
@@ -239,7 +239,7 @@
 <li>The followers passively replicate the leader.</li>
 <li>If the leader fails, a follower will automatically become the new leader.</li>
 <li>Each server acts as a leader for some <em><strong>partitions</strong></em>, and a follower for some <em><strong>partitions</strong></em>.</li>
-<li>All <em><strong>consumers</strong></em> and <em><strong>producers</strong></em> operating on the <em><strong>partition</strong></em> must connect to the leader. 
+<li>All <em><strong>consumers</strong></em> and <em><strong>producers</strong></em> operating on the <em><strong>partition</strong></em> must connect to the leader.
 <img src="https://paruport.com/images/posts/kafka-summary/5.jpg" alt="Leader Follower example"></li>
 </ul>
 <h3 id="geo-replication">Geo-Replication</h3>
@@ -409,6 +409,6 @@
 
   </div>
 </footer>
-    <script src = 'https://paruport.com/js/bundle.6d468eb5921d97c9c31450cf05a079e0c004fe2bfa242d5202fc0fa9745d7335e18e267f39f085dd4aa755b74c944ab1228527dfb6c47fd7a1999c8d7c190a54.js'></script>
+    <script src = 'https://paruport.com/js/bundle.b5a50d7729647d351c765864acdaeea15391e1e2e2930092a3db0141c2db955090a943000603b0d71eb40014410b7fde6d9ab17334bbfbe3dd294e854a7a30c2.js'></script>
   </body>
 </html>
